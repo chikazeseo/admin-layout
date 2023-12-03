@@ -1,0 +1,63 @@
+// Reset.scss
+
+// Box-sizing reset
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// Remove default margin and padding
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    font-size: 16px;
+}
+
+// Remove list styling
+ul,
+ol {
+  list-style: none;
+}
+
+// Remove default styles for anchor links
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// Remove default styles for buttons
+button {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: none;
+  cursor: pointer;
+}
+
+// Remove default styles for form elements
+input,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
